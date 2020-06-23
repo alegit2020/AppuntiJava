@@ -1,0 +1,454 @@
+﻿Salve a tutti,
+
+	  ricevete questa mail in quanto avete dichiarato interesse per la
+corrente erogazione di uno (o più) di questi corsi o comunque risultate
+tuttora iscritti ad una delle classi relative:
+
++ Ingegneria Software e Programmazione ad Oggetti (Ordinamento 270) IS-PO
++ Ingegneria Software (Ordinamento 509) IS
++ Programmazione ad Oggetti (Ordinamento 509) PO
+
+Potete leggere in chiaro gli indirizzi di email di altri vostri
+colleghi che si sono dichiarati interessati di modo che potete, come
+incentivato esplicitamente anche da UTIU, discutere anche tra voi di
+tematiche inerenti il corso.
+
+Premetto alcune informazioni che probabilmente sono ovvie e scontate
+alla maggior parte di voi, ma dalle risposte ricevute ho evidenza che
+non lo siano per tutti.
+
+
+*** Che cosa è una erogazione?
+*** Date degli appelli ***
+*** Questioni inerenti l'ordinamento ***
+*** Prenotazione all'esame ***
+
+se avete dubbi in proposito, leggete l'altro allegato 270vs509edAltro.txt 
+
+*** Propedeuticità *** 
+
+Ovvero, devo aver superato altri esami prima di sostenere questo?
+
+Per gli aspetti formali rivolgetevi alla Presidenza di Facoltà.  Al di
+là di questi, praticamente consiglio questo corso solo a chi ha già
+superato sia il corso di "Informatica" che il corso di "Algoritmi e
+programmazione avanzata", o equivalenti. In generale, si da per
+scontato che chi accede a questo corso sappia già programmare in un
+linguaggio di programmazione, anche se non secondo il paradigma
+orientato agli oggetti. Nella mia esperienza cercare di insegnare la
+programmazione a partire da questo paradigma ha forti
+controndicazioni. Pertanto, al di là degli aspetti formali, se non
+avete già superato gli esami sopracitati vi pregherei di evitare di
+sostenere questo esame e dare priorità alle sue "naturali"
+propedeuticità.
+
+Per gli studenti 509, è opportuno, ma non necessario, sostenere
+IS dopo aver superato PO, od anche contestualmente ma non prima.
+
+
+*** Come studiare per il corso ***
+
+Corso bifido, in realtà ottenuto giustapponendo  brutalmente due
+vecchi corsi dell'ordinamento 509 e limando leggermente il vecchio
+Ingegneria del Software 509
+
+
+PO) (videolezioni 1-26) essenzialmente un corso introduttivo alla
+    programmazione ad oggetti, con approfondimenti di talune librerie
+    (ad esempio per le interfacce grafiche e l'integrazione con le
+     basi di dati) ed al linguaggio di programmazione java.
+
+    Notabile, a mio parere, come il sotto-blocco di videolezioni 3-7
+    (quelle del Prof. Temperini, per capirci) abbia un taglio
+    decisamente più accademico, ovvero di introduzione al paradigma
+    orientato agli oggetti senza riferimento ad un particolare
+    linguaggio di programmazione come java. Di queste lezioni ho
+    recuperato fortunatamente del materiale che non era disponibile in
+    origine dal portale UTIU e chi vi allego a cui le lezioni fanno
+    esplicito riferimento (non sono sicuro che sia lecito
+    ripubblicarlo tramite portale e preferisco evitare).
+
+    Al contrario le videolezioni successive (e le due precedenti) sono
+    chiaramente riferite a java.  Teneteno conto: il blocco 3-7
+    rischia di risultare molto astratto, e forse vale la pena di
+    tornarci in un secondo momento, dopo aver affrontato il resto
+    delle videolezioni (8-15) dedicate a java ed alcune librerie
+    fondamentali (ma non necessariamente tutte). Il rischio è che le
+    videolezioni del Prof. Temperini non risultino apprezzabili
+    pienamente da chi non ha già studiato un linguaggio di
+    riferimento.
+
+    Le videolezioni dalle 14 alla 26 sono dedicate alle librerie. Tra
+    queste reputo più importanti le prime due, ovvero java.io (lezione
+    14) e soprattutto le collezioni (lezioni 15), mentre le altre
+    possono essere studiate con più calma, anche in "ordine di
+    libreria" sparso.  Le librerie più importanti in java sono
+    discusse nella videolezione 15, al punto che vi fornisco degli
+    allegati (denominati PO-JCF-XXX) ad integrazione del loro studio.
+
+    A mio parere, per uno studente che non abbia mai programmato in un
+    linguaggio orientato agli oggetti, le altre librerie
+    (corrispondenti alle videolezioni 16-26) sono sicuramente meno
+    rilevanti, almeno dal punto di vista didattico. E purtroppo sono
+    forse la parte del corso più soggetta al fenomeno
+    dell'obsolescenza che sfortunatamente affligge tutti i corsi ad
+    alto contenuto tecnologico.
+   
+    Chiarito questo, in ordine:
+    
+    - la lezione 16 discute di una libreria java.text che non ho visto
+      presentata in molti altri corsi universitari assimilabili a
+      questo
+
+    - la lezioni 17-20 illustrano la programmazione di GUI, con
+      elementi metodologici (ad es. uso di Pattern da parte delle
+      librerie) molto importanti, ma va detto che ad es. le awt sono
+      anni che non si usano, ed anche le swing sono state rimpiazzate
+      sempre più frequentemente da proposte alternative di maggior
+      successo come le swt qui purtroppo non sono affrontate)
+
+    - la lezione 21 discute di applet. Tema molto popolare in questi corsi,
+      ma a mio parere meno formativo di altri
+    
+    - le lezioni 22-26 presenta le più importanti librerie per creare
+      applicativi che facciano uso di DBMS. Reputo queste librerie molto
+      utili per correlare questo corso all'altro corso (SI-BD) di cui 
+      sono tutor.
+
+In definitiva, queste librerie possono essere richieste, ma più con
+riferimento ad aspetti metodologici, che di dettaglio. Per chiarire, è
+possibile che vi si chieda quali pattern si usano in queste librerie,
+o di indicare alcuni esempi di utilizzo di certi pattern al loro
+interno, ma nessuno vi chiederà di ricordare il dettaglio di ogni
+metodo che le compongono. Al massimo vi si potrà chiedere di ricordare
+solo i principali metodi e senza pretendere le segnature esatte di
+ciascuno di essi, basta l'"intento" dei metodi e la distribuzione
+delle relative responsabilità.
+
+Al contrario, vi si chiede una conoscenza dei metodi principali del
+JCF (Java Collection Framework) discusso nella lezione 15 e negli
+allegati PO-JCF-XXX che vi fornisco, e la capacità di usarli in
+semplici algoritmi di gestione di collezioni di oggetti che sarete
+chiamati a scrivere.
+    
+IS) (videolezioni 27-46) un corso essenzialmente di Design Pattern
+    (33-39) e testing (40-46) + una serie di interessanti argomenti
+    complementari, che d'ora in poi defineremo, ma solo per
+    riferimento, "teorici" (ad es. processo sviluppo del software,
+    versionamento, analisi e specifica dei requisiti,
+    ecc. ecc.)
+
+I due precedenti corsi 509 erano "abbastanza" compatibili, ma
+sicuramente con sfumature molto diverse.  Il corso di PO logicamente
+precede quello di IS ed è dedicato anche al linguaggio di
+programmazione Java, che in effetti potrebbe anche essere rimpiazzato
+nel corso IS da altri linguaggi di programmazione senza rilevanti
+conseguenze. Per semplicità, faremo sempre riferimento al linguaggio
+di programmazione Java per entrambi i moduli del corso da 9 CFU IS-PO
+(ordinamento 270) nonché per il corso da 5 CFU di IS (ordinamento
+509).
+
+
+Per IS ci saranno essenzialmente domande aperte all'esame,
+eventualmente comprensive di richieste di scrivere codice di esempio
+e/o di test; per PO troverete sicuramente esercizi di
+programmazione. Alcuni esercizi di programmazione potrebbero
+utilizzare più o meno esplicitamente i Design Pattern. In questo caso
+la loro conoscenza risulterebbe un rilevante aiuto nella costruzione
+della soluzione, ma senza risultare veramente necessaria.
+
+Consiglio è di studiare le videolezioni che formano il "nucleo" di PO
+sul linguaggio Java e su alcune lezioni fondamentali (stiamo parlando
+di 10 videolezioni: 1,2 + 8-15) da subito, con massima priorità
+accompagnate da un robusto uso pratico di un IDE (come ad esempio
+eclipse: http://www.eclipse.org/downloads), soprattutto se non si è
+già proficienti nella programmazione, e/o nella programmazione java in
+particolare. E di fare di pari passo le verifiche che vi presenterò di
+seguito.
+
+Le altre videolezioni di PO (16-26), possono essere affrontate anche
+in parallelo rispetto a IS (videolezioni 27-46), e forse meglio dopo
+aver visto almeno le videolezioni sui pattern (33-39).
+
+Per quanto il blocco 3-7, può servire a consolidare e sistematizzare
+alcuni concetti, ma solo successivamente.
+
+Lo studio deve essere diradato ed uniforme nel tempo, per tutte
+le 9/10 settimane circa che dura una erogazione, e non concentrato
+in poche settimane prima degli appelli.
+
+Pertanto, studiando le due parti in parallelo, si avranno circa 10
+settimane per fare esercizi di programmazione in java, oltre che per
+usufruire delle videolezioni di PO e di IS.
+
+
+Quindi in sintesi, e riassumendo, vi suggerisco questo ordine per usufruire delle
+videolezioni:
+
+1,2, 8-14) Introduzione OO e Java, librerie fondamentali
+15, allegati JCF-XXX) Collezioni
+allegato JUnit) testing di unità (utili già in fase di studio dei fondamenti)
+27-32) Fondamenti di IS
+33-39) Design Pattern
+16-26) Altre librerie java
+40-46) Testing
+3-7) Sistematizzazione concetti OO
+
+
+*** Cosa, come, dove, quando studiare ***
+PO) videolezioni, un libro di riferimento su java, 
+	materiale aggiuntivo (vedi punto in proposito)
+
+NESSUN TESTO PUO' SOSTITUIRE LA PROGRAMMAZIONE: bisogna esercitarsi
+programmando al calcolatore, ma alcuni riferimenti possono decisamente
+aiutare chi ha poco tempo e tranquillizzare chi ha bisogno di un
+riferimento "cartaceo". Come ambiente di sviluppo vi consiglio
+"NetBeans", ma anche altri IDE possono andare benissimo, soprattutto
+se vi sono già familiari.
+
+Vi rimando alla bibliografia che ho inserito nel portale. Brevemente
+consiglio
+
++ Concetti di informatica e fondamenti di Java. Cay Horstmann. Quinta
+ed., 2010, Apogeo Editore. ISBN 8850329563.
+
+
+IS) videolezioni, un libro sui design pattern (ed altri facoltativi)
+
+Vi rimando alla bibliografia che ho inserito nel portale. Brevemente
+consiglio
+
++ Design Patterns: elementi per il riuso di software a oggetti. Erich
+Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Prima
+ed. italiana, 2002, Pearson Education Italia. ISBN 887192150X
+
+Questo libro in massima parte usa esempi in C++ ma non è un
+sostanziale difetto per chi deve programmare in Java. Lo consiglio
+anche a chi deve solo sostenere l'esame di PO.
+
+Il libro è un classico, ma i pattern si possono capire "veramente"
+solo dopo averli dovuti applicare concretamente anche in progetti di
+piccole dimensioni. Sebbene in forma stilizzata, il libro di cui sopra
+fornisce molti esempi.
+
+
+*** Esame ***
+
+Si svolge un compito scritto della durata di 150 minuti complessivi, e
+suddiviso in due parti, parte IS + parte PO, corrispondenti ai due
+moduli del corso (ovviamente chi ha nel proprio piano di studi solo un
+corso da 5 CFU deve svolgere solo la corrispondente parte dell'esame).
+
+A) Parte IS (Durata 60 min).  
+
+Due domande "teoriche" su tutto il programma, anche se la parte di IS
+più si presta a domande "teoriche". Almeno una delle due domande sarà
+inerente i Design Pattern, o in generale, o con riferimento ad un
+particolare Pattern del catalogo "standard" (vedi libro citato di
+seguito), ma limitatamente ai pattern già appronditi negli homework
+o comunque che più risultano ricorrenti nelle librerie appronfondite.
+
+Per quest'ultimo tipo di domande si richiede la scrittura di codice di
+esempio e di test di unità (utilizzando JUnit) a supporto.
+
+Per essere più precisi sull'uso dei Design Pattern alle prove di
+esame: si richiede una conoscenza di dettaglio dei seguenti Design Pattern:
+
+Iterator, Composite, Observer, Decorator, Singleton, Template Method
+
+Si richiede una conoscenza più generica di questi Design Pattern: 
+
+Builder, Proxy, Abstract Factory, Visitor 
+
+Degli altri ancora basta una lettura tesa alla comprensione del loro
+funzionamento ed intento.
+
+
+
+B) Parte PO (Durata 90 min).
+
+Due esercizi. 
+
+Il primo esercizio richiede la ristrutturazione di codice che utilizza
+il polimorfismo. Vi viene fornito un codice ritenuto non di qualità e
+vi si chiede di ristrutturarlo secondo le indicazioni chiaramente
+fornite. L'esercizio è utile per capire se lo studente padroneggia il
+senso della richiesta di ristrutturazione di codice e sa lavorare con
+il polimorfismo (interfacce, classi astratte, metodi polimorfi,
+ecc. ecc.).
+
+Tipicamente ma non necessariamente questo esercizio fa riferimento al
+codice di un micro-progetto che utilizza un Design Pattern.  Qui il
+codice è già impostato, ma lo dovete saper terminare, catturandone lo
+spirito e le motivazioni del Design Pattern e/o dell'utilizzo che si
+fa del polimorfismo.
+
+Nel secondo esercizio bisogna completare del codice basato sull'uso
+delle collezioni (insiemi, liste, mappe) e per essere risolto richiede
+la conoscenza dei metodi di *base* del JCF (in particolare di
+java.util.Set, java.util.List, e java.util.Map) e la capacità di
+sviluppare in maniera autonoma semplici algoritmi che ne facciano uso
+allo scopo di "riorganizzare" ed ordinare collezioni di oggetti.
+
+Non si può consultare nulla durante la prova d'esame.
+
+*** Ammissione all'esame ***
+
+Per essere ammessi agli appelli è necessario prendere visione di tutte
+le videolezioni e consegnare almeno TRE homework discussi di seguito e
+denominati FormeGeometriche, Precipitazioni, Battlefield, ed
+EsameCompleto, quest'ultima composita di parte IS + parte PO.
+
+Chi svolge IS-PO 270 oppure PO 509 deve consegnare tutto. Chi svolge
+IS 509 deve consegnare solo EsameCompleto parte IS.
+
+La consegna di questi homework è obbligatoria per essere ammessi agli
+appelli d'esame. Sottoponete la vostra soluzione tramite una mail
+diretta a me ED ANCHE tramite il portale UTIU laddove gli esercizi
+risultino scaricabili e consegnabili.
+
+N.B. per l'ammissione fa testo l'email diretta a me. Per questioni
+amministrative, la consegna tramite portale è comunque necessaria se
+gli esercizi risultano consegnabili, in quanto la Presidenza mi può
+richiedere riscontro sul portale delle prove intermedie da voi
+sostenute.  Vi chiedo cortesemente di fare le consegne usando entrambi
+i canali.
+
+
+*** Verifiche ***
+
+  Bisogna svolgerle tutte (ma non consegnarle) entro la terza
+  settimana di erogazione. E' comunque opportuno svolgerle
+  gradualmente a conferma di quanto appreso e prima di svolgere gli hw.
+
+Per la parte di PO, ho predisposto una serie verifiche
+puntuali sugli argomenti fondamentali del corso.
+
+Le verifiche sono direttamente dei file contenenti sorgenti di codice
+java, li trovate nel portale allegate alle videolezioni, e contengono
+alcune domande sotto forma di codice commentato. Si chiamano:
+
+- Sommatore.java
+- Tesi.java
+- Studente.java
+a verifica dei concetti di basa su java e la programmazione ad oggetti
+(come ad es. il passaggio dei parametri, le var. locali, array ecc. ecc.).
+
+A seguire trovate:
+- L.java
+- Olimpiadi.java
+- Villa.java
+- Elicottero.java
+a verifica del polimorfismo e di alcuni aspetti correlati.
+
+Per finire trovate:
+- ProveGenerics.java
+- ProveHashSet.java
+- ProveTreeSet.java
+- VerificaMappe.java
+a verifica della conoscenza del Java Collection Framework (dentro java.util)
+
+*** Homework ***
+
+E' preferibile svolgerli solo dopo aver svolto e compreso le verifiche di cui sopra.
+
+- "FormeGeometriche" bisogna consegnare entro la quarta settimana dell'erogazione
+
+- "Precipitazioni" bisogna consegnare entro la settima settimana  dell'erogazione
+
+- "EsameCompleto" bisogna consegnarlo entro la fine dell'erogazione si
+  consiglia di svolgerlo prima "su carta" (magari verificando di
+  finirlo entro 150 minuti) e quindi anche al calcolatore
+
+- "Battlefield" si consiglia di svolgerlo *solo* al calcolatore, entro
+  la fine dell'erogazione
+
+*** Scadenze Verifiche / Homework ***
+
+Siete liberi di scegliervi come settimana di riferimento per le
+scadenze di sopra quella che preferite: è per me più importante che
+che diluite lo studio su un arco temporale di 8-10 settimane piuttosto
+che imporre delle scadenze rigide. Le date di consegna degli hw
+aiuteranno a formare l'evidenza di quanto il vostro studio è risultato
+diluito nel tempo.
+
+
+*** Materiale Aggiuntivo *** 
+
+Il Java Collection Framework utilizza pesantemente i cosidetti Java
+Generics.  Purtroppo le videolezioni sono state registate prima che
+questa importante novità fosse introdotta in java. Pertanto ho
+predisposto (come libri & articoli della videolezione 15) un blocco di
+lucidi di introduzione ai generics.  L'alternativa ci avrebbe portato
+a scrivere codice in una forma che praticamente nessuno piu' utilizza.
+
+Allegata alla videolezione 42 (come libri e articoli) trovate un
+blocco di slide su come utilizzare JUnit (http://www.junit.org) come
+framework per la scrittura di test di unità in java. Questo consente
+di mettere in pratica in java, affrontato solo nel modulo PO, alcune
+delle tecniche solo teorizzate nel corposo blocco di videolezioni
+sul testing 40-46 che fanno parte del modulo IS:
+
+Sul sito http://www.junit.org citato trovate molto materiale di qualità,
+anche se sempre in inglese. Vi rimando anche alla sitografia che
+trovate sul portale UTIU.
+
+
+*** Esercizi Online *** 
+
+Nelle verifiche, troverete una serie di domande puntuali per
+verificare le vostre conoscenze di base su java (PO). Non chiedetemi
+le risposte corrette: vi basta copia/incollare il codice, fare una
+compilazione ed esecuzione per avere le risposta corretta.
+
+Questi esercizi sono molto utili per capire se si conoscono alcuni
+aspetti fondamentali del linguaggio di programmazione java. Purtroppo
+sono molto più efficaci ad individuare chi non è adeguatamente
+preparato piuttosto sugli aspetti di base del linguaggio che non a
+certificare una preparazione adeguata.
+
+Per finire, homework più sostanziali (e la cui consegna è
+necessaria per essere ammessi all'esame) li trovate come allegati
+dell'intero insegnamento accanto ai testi d'esame con soluzioni. 
+Si chiamano "FormeGeometriche", "Precipitazioni" ,  "EsameCompleto"
+e Battlefield.
+
+Sono esercizi che richiedono buone capacità di programmazione, di
+testing e di utilizzo di Design Pattern, e sicuramente più probanti
+delle verifiche che hanno obiettivi diversi, e più puntuali.
+
+*** Quali strumenti di interazione usare tra noi?
+
+Sono ovviamente più che interessato ad accogliere eventuali vostri
+suggerimenti specialmente sulle modalità di interazione tra noi.
+
+Vi invito a leggere questa email, ed i suoi allegati, prima
+di ogni eventuale contattato.
+
+
+Cordiali Saluti,
+
+
+P.S. per chi ha già seguito il corso di SI-BD con me, vorrei
+evidenziare come questo corso di IS-PO richiede una autonomia molto
+più spiccata, ed è stato giustamente percepito come più difficile
+dagli studenti che vi hanno preceduto. Personalmente credo questo sia
+dovuto solo in parte al materiale didattico, che nel caso di SI-BD può
+contare su una combinazione particolarmente fortunata in cui le
+videolezioni sono state registrate dalle stesse persone che hanno
+scritto il libro di riferimento ed il materiale disponibile è molto
+consolidato e meno oggetto a fenomeni di obsolescenza.
+
+Altra, e forse ancora più significativa differenza, è che non esiste
+libro che possa insegnare a programmare dignitosamente senza
+programmare all'elaboratore con un buon livello di entusiasmo, e non
+esistono esercizi che svolti solo su carta possono darvi tutte le
+risposte che servono agli esami: serve una sensibilità ed una
+confidenza con la programmazione che solo programmando concretamente,
+all'elaboratore, si può acquisire. Il mio consiglio è di fare entrare
+la programmazione all'elaboratore tra le vostre quotidiane attività,
+od almeno allo stesso livello delle videolezioni o dei libri che è
+inutile utilizzare senza contestualmente svolgere anche esercizi al
+calcolatore.  Quindi, in conclusione, prima ancora di vedere la prima
+videolezioni, installate un qualsiasi altro IDE di vostro
+gradimento, e risolvete gli esercizi SOLO al calcolatore.

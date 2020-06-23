@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+class Main {  //Classe CC
+Operazione op;
+
+  public static void main(String[] args) {
+  int scelta=-1;
+  Scanner keyboard = new Scanner(System.in);
+
+    System.out.println("Gestione contoCorrente");
+    
+    do{
+      System.out.print("\n1=versa\n2=preleva\n3=saldo\n4=movimenti\n0=esci\n");
+      scelta= keyboard.nextInt();
+      switch(scelta){
+        case (0):
+          System.out.print("\nUscita...");
+        break;
+        case (1):
+          System.out.print("\nVersa...");
+        break;
+        case (2):
+          System.out.print("\nPreleva...");
+        break;
+        case (3):
+          System.out.print("\nSaldo...");
+        break;
+        case (4):
+          System.out.print("\nMovimenti...");
+        break;
+        default:
+          System.out.print("\nUscita...");
+        break;
+      }
+    } while (scelta!=0);
+  }
+}

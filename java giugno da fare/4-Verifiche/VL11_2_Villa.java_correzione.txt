@@ -1,0 +1,30 @@
+/*
+  Obiettivo: verifica comprensione tipi statici e dinamici
+
+  Il seguente programma contiene molti errori.
+  - quali?
+  - compilare il programma e verificare le proprie risposte
+
+*/
+
+public interface Edificio{
+	public void numeroPiani();
+}
+
+public class Villa implements Edificio {
+	public void numeroPiani(){}
+
+	public static void main(String[] args){
+
+		Edificio e = new Villa();
+		Villa v = new Villa();
+		Edificio e1 = new Villa();
+
+		e=v;
+		v=(Villa) e1;
+		e1.numeroPiani();
+		e = new Villa();
+		v=e;  //dovrebbe dare errore solo in runtime, in caso
+	}
+
+}
