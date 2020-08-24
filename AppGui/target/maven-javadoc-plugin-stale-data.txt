@@ -1,0 +1,26 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk-14.0.1\bin\javadoc.exe" @options @packages"
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\allclasses-index.html = 1596204320470
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\allpackages-index.html = 1596204320472
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\constant-values.html = 1596204320361
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\deprecated-list.html = 1596204320434
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\element-list = 1596204320337
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\help-doc.html = 1596204320482
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\index-all.html = 1596204320463
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\index.html = 1596204320478
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\member-search-index.js = 1596204320459
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\member-search-index.zip = 1596204320461
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\options = 1596204318980
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\overview-tree.html = 1596204320428
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\package-search-index.js = 1596204320452
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\package-search-index.zip = 1596204320456
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\packages = 1596204318981
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\script.js = 1596204320487
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\search.js = 1596204320489
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\serialized-form.html = 1596204320371
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\stylesheet.css = 1596204320485
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\system-properties.html = 1596204320475
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\type-search-index.js = 1596204320457
+C:\Users\a.galli\Documents\NetBeansProjects\AppGui\target\site\apidocs\type-search-index.zip = 1596204320458

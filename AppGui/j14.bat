@@ -1,0 +1,1 @@
+C:\Program Files\Java\jdk-14.0.1\bin\java -jar target\AppGui-1.0-SNAPSHOT.jar

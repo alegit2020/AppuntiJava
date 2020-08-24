@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.alex</groupId>
+    <artifactId>AppGui</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>7</maven.compiler.source>
+        <maven.compiler.target>7</maven.compiler.target>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.alex.appgui.MainMenu</mainClass>                                                        
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                        <id>deploy</id>
+                    </execution>
+                </executions>
+                <configuration>
+                    <foo>bar</foo>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.2.1</version>
+                <configuration>
+                    <foo>bar</foo>
+                </configuration>
+            </plugin>
+
+                                                                    
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>jar</goal>
+                            <goal>javadoc</goal>
+                        </goals>
+                        <id>jar</id>
+                    </execution>
+                </executions>
+                <configuration>
+                    <foo>bar</foo>
+                </configuration>
+            </plugin>
+            
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.swinglabs</groupId>
+            <artifactId>swing-layout</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+    </dependencies>
+</project>

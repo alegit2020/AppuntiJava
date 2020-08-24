@@ -1,0 +1,1 @@
+java -jar target\AppGui-1.0-SNAPSHOT.jar

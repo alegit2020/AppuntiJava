@@ -1,0 +1,13 @@
+com\alex\appgui\App1.class
+com\alex\appgui\CostantiGrafiche.class
+com\alex\appgui\App1$ActionCmd.class
+com\alex\appgui\Range.class
+com\alex\appgui\Point.class
+com\alex\appgui\App1$CanvasIn.class
+com\alex\appgui\MainMenu$mainMenuWindowAdapter.class
+com\alex\appgui\App1$CanvasOut.class
+com\alex\appgui\MainMenu$mainMenuActionListener.class
+com\alex\appgui\EtichettaRange.class
+com\alex\appgui\MainMenu.class
+com\alex\appgui\App1$MouseCanvasInListener.class
+com\alex\appgui\NomeRange.class
